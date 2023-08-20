@@ -1,3 +1,3 @@
 Java Script 
    is
- ready
+ready
