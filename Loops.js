@@ -23,4 +23,7 @@ do{
     
 }while(k<5);
 
-//
+//condition true or false//
+
+isloggedin=false;                                    //lossely typed//
+isloggedin ?  console.log("Home page") : console.log("log in again");
