@@ -23,7 +23,7 @@ e.shift()     // delete 1 item rom the starting of an array//
 console.log(e);
 e.push(5,9,10)
 console.log(e);
-e.unshift(9)        //shift that number in the irst postion//
+e.unshift(9)        //shift that number in the frst postion//
 console.log(e);
 
 //2 array//
