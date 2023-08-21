@@ -29,4 +29,16 @@ console.log(add(5,9))
     console.log(result);
 
 
+    //invoke Function//
+    (function exc(){
+        console.log("hello");                          //this function execute only one time that why we covered in a bracket and he exceute just after the declaration//
+    })();
+
+
+    //Annonymous invoke function//
+
+    (function(x){
+        console.log(x*x)                          //this function execute only one time that why we covered in a bracket and he exceute just after the declaration and we don't need to give function name)
+    })(5);
+
  
