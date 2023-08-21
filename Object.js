@@ -22,3 +22,24 @@ e.id=23
 console.log(e['id']);
 delete e.id;
 console.log(e);
+
+
+
+let w={
+    id:21,
+    name:"manya",
+    salary:2000
+}
+
+let keys=Object.keys(w);
+console.log(keys);
+let value=Object.values(w);
+console.log(value);
+let entries=Object.entries(w)
+console.log(entries);
+
+let o=Object.assign({x:12},w);
+console.log(o);
+
+Object.freeze(emp);         //You can not change any of the entries of emp Object//
+Object.seal(w);            //You can updte the Keys//
