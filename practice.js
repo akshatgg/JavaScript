@@ -45,9 +45,9 @@ console.log("I enrolled to the PW FWSD course"[2]);
 
 
 
-// const name=Skills
-// console.log(name());
-//output is undefined//
+// const kim=Skills
+// console.log(kim());
+// output is undefined//
 
 
 
