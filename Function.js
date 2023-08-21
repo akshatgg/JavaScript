@@ -17,6 +17,7 @@ function add(x,y){
 console.log(add(5,9))
 
 
+
     function sumofallparameter(){
         let sum=0;
         for(var i=0;i<arguments.length;i++){
