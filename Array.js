@@ -49,5 +49,3 @@ console.log(arr1.slice(2,4));
 
 arr1.splice(2,0,11,15);            //arr1.splice( index, deletion of that number,adding number//)
 console.log(arr1);
-2,  4, 11, 6,
-4, 62, 43
