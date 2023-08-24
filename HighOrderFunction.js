@@ -46,8 +46,8 @@ console.log(sum(nums));
 
 
 const nme =()=>{
-  console.log("Akshat Gupta");
+  console.log("Akshat Gupta",Math.random());
 }
 
-// setInterval(nme,2000);
-setTimeout(nme ,2000);
+setInterval(nme,2000);
+// setTimeout(nme ,2000);
