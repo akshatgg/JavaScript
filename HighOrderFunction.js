@@ -30,3 +30,24 @@ const highorderfunc = m =>{
 return onefunc;
 }
 console.log(highorderfunc(3)(2)(1));
+
+
+
+
+const nums=[2,4,5,6,7];
+const sum=array=>{
+    let total=0;
+    array.forEach(function(element){
+        total=total+element;
+    })
+    return total;
+} 
+console.log(sum(nums));
+
+
+const nme =()=>{
+  console.log("Akshat Gupta");
+}
+
+// setInterval(nme,2000);
+setTimeout(nme ,2000);
