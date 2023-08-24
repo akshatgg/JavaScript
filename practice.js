@@ -78,3 +78,18 @@ console.log(k);
 const tim="Skills"
 console.log(!typeof tim ==="object");
 console.log(!typeof tim==="string");
+
+
+
+
+
+var sum=0;
+var arr = [10,15,20,30];  
+arr.forEach(function myFunction(element) 
+{  
+     sum= sum+element;  
+});  
+console.log(sum);
+
+
+
