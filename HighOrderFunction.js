@@ -21,7 +21,7 @@ guess();
 
 
 const highorderfunc = m =>{
-    const onefunc=n=>{
+    const onefunc=n=>{ 
         const twofunc=o=>{
             return m+n+o;
         }
