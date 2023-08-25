@@ -59,5 +59,5 @@ arrr.forEach(function(element,index,arrr){
 
 const nm=["rom","roham","rohan"]
 nm.forEach(function(el,index,nm){
-    console.log(el,index,nm);
+    console.log(el.toUpperCase(),index,nm);
 })
