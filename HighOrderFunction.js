@@ -82,3 +82,25 @@ const sumofcart=cart.reduce((prev,curr)=>prev+curr,0)
 console.log(sumofcart);
 
 //gamescore//
+const gamesc=[20,43,76,960,450];
+const checknum=gamesc.every((v)=> typeof v=='number');
+console.log("check= ",checknum);
+
+//above score 200//
+
+const above200 = gamesc.forEach((n) => {
+
+    if (n > 200) {
+         console.log(n);
+    }
+    
+});
+console.log(above200);
+
+
+const ab200=gamesc.find((sc)=>sc>200)
+console.log(ab200);
+
+
+
+
