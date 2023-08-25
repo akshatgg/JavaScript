@@ -61,3 +61,24 @@ const nm=["rom","roham","rohan"]
 nm.forEach(function(el,index,nm){
     console.log(el.toUpperCase(),index,nm);
 })
+
+
+nm.map(function(element,index,arrr){
+    console.log(element,index,arrr);
+})
+nm.map((h)=>console.log(h.toUpperCase()));
+
+//filter//
+const heros=["wweraj","rawrj","wer","smackraj"];
+const herojwithraj=heros.filter((h)=>{
+    return h.endsWith('raj');
+})
+console.log(herojwithraj);
+
+
+//shopping cart//
+const cart=[20,45,64]
+const sumofcart=cart.reduce((prev,curr)=>prev+curr,0)
+console.log(sumofcart);
+
+//gamescore//
