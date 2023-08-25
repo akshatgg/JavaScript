@@ -18,8 +18,6 @@ console.log(guess);
 guess();
 
 
-
-
 const highorderfunc = m =>{
     const onefunc=n=>{ 
         const twofunc=o=>{
