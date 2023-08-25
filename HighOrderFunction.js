@@ -102,5 +102,8 @@ const ab200=gamesc.find((sc)=>sc>200)
 console.log(ab200);
 
 
+console.log(gamesc.findIndex((item)=>item== 960));
+gamesc.sort();
+console.log(gamesc);
 
 
