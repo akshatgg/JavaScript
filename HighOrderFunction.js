@@ -47,5 +47,17 @@ const nme =()=>{
   console.log("Akshat Gupta",Math.random());
 }
 
-setInterval(nme,2000);
+// setInterval(nme,2000);
 // setTimeout(nme ,2000);
+
+
+
+const arrr=[4,7,9]
+arrr.forEach(function(element,index,arrr){
+    console.log(element,index,arrr);
+})
+
+const nm=["rom","roham","rohan"]
+nm.forEach(function(el,index,nm){
+    console.log(el,index,nm);
+})
