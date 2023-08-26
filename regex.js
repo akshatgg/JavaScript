@@ -15,4 +15,11 @@ console.log(check);
 let check1=content.match(regexThree);
 console.log(check1);
 
+const replace=content.replace(regexThree,'p-w'  );
+console.log(replace);
+
+
+const weburl="https://chat.openai.com/-20model=text-davinci-002-render-sha";
+const userweb=weburl.replace(/-\d0/, '?');
+console.log(userweb);
 
