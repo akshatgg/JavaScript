@@ -9,20 +9,30 @@ try{
 
 //Classes//
 class practice{
-  
+    
     name;
     salary;
     Number;
+    #rating;
     constructor(n,s,N){
-       console.log("value");
+        console.log("value");
         this.name=n;
         this.salary=s;
-        this.Number=N;
+        this.#rating=N;
         // return 10;                   //if yu use primitive then it would be avoided by constructor//
         // return{k:43,l:23};           //if yu use non primitive then it will be returned//
-        }
-
-
+    }
+    static custom(){
+        console.log("static class");
+    }
+    get ratingget(){
+        console.log(this.#rating);
+    }
+    set ratingset(N){
+        if(N<0)return;
+        this.#rating=N;
+    }
+    
     display(){
         console.log("thank yu");
         console.log("this refers to",this);
@@ -31,7 +41,9 @@ class practice{
 const p=new practice("akshat","2000","89")                    //  new create a empty object always  // 
 console.log(p);
 p.display()
-
+practice.custom();
+p.ratingset=90;
+p.ratingget;
 
 function product(n,s,N){
     this.name=n;
@@ -43,6 +55,7 @@ console.log(u);
 let x={
       l: product
 };
+
 x.l("kk",9,89);
 console.log(x);
 
@@ -77,6 +90,9 @@ let oj={
         }
         };
         osj.fun();
+
+
+
 
 
 
