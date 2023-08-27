@@ -9,6 +9,7 @@ try{
 
 //Classes//
 class practice{
+  
     name;
     salary;
     Number;
@@ -20,6 +21,7 @@ class practice{
         // return 10;                   //if yu use primitive then it would be avoided by constructor//
         // return{k:43,l:23};           //if yu use non primitive then it will be returned//
         }
+
 
     display(){
         console.log("thank yu");
@@ -39,9 +41,9 @@ function product(n,s,N){
 const u=new product("sam",6666,86)
 console.log(u);
 let x={
-      u: product
+      l: product
 };
-x.u("kk",9,89);
+x.l("kk",9,89);
 console.log(x);
 
 
