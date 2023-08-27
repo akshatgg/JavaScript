@@ -46,8 +46,8 @@ console.log(x);
 
 
 let obj={
-x:10,   
-fun(){
+    x:10,   
+    fun(){
 console.log(this.x);
 }
 }
@@ -64,15 +64,16 @@ let oj={
 
 
     let osj={
-        x:10,   
+        x:10,
         fun(){
-            y={
+           let y={
                 gun:()=>{
                     console.log(this.x);
                 }
-            }
+            };
+            y.gun()
         }
-        }
+        };
         osj.fun();
 
 
