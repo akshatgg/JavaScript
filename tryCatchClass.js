@@ -10,9 +10,7 @@ try{
 //Classes//
 class practice{
     
-    name;
-    salary;
-    Number;
+   
     #rating;
     constructor(n,s,N){
         console.log("value");
