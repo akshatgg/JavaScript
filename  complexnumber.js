@@ -28,6 +28,11 @@ let c1=new complexnumber(5,8)
 c1.addcomplexnumb(p);
 c1.display()
 
+
+
+
+
+//subtraction//
 class sub{
     constructor(r,i){
    this.real=r;
