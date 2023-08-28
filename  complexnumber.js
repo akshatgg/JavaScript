@@ -17,6 +17,7 @@ this.#real=r;
    get real(){
     return this.#real;
    }
+   
     addcomplexnumb(c1){
             this.#img=this.img+c1.img;
             this.#real=this.#real+c1.real 
