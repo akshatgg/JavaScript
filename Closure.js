@@ -29,4 +29,8 @@ func1();
 
 //closure//
 
+const error="File not found"
+setTimeout(function(){
+    console.log(error);
+},1000)
 
