@@ -8,6 +8,7 @@ console.log(a);
 let b=new Array(5)
 console.log(b); 
 
+
  //add element in  array//
 console.log(a[3]);
 a[3]=5

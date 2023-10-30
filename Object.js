@@ -1,6 +1,7 @@
 let obj={id:101, name:"Alex", salary:9000}
 console.log(obj);
 
+
 let emp=new Object
 console.log(emp);
 emp.id=108;

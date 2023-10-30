@@ -1,10 +1,12 @@
-try{
-    console.log("hello");
-    console.log(a);
-}catch{
-    console.log("handle");
-}finally{
-    console.log("finally");
-}
+const myhero=["thor","spiderman"]
+const dchero=["batman","superman","flash"]
 
-//Classes//
+let heropower={
+    spiderman:"sling",
+    thor:"thunder",
+    flash:"speed",
+    spidypower: function() {
+        console.log("spidy power is ", this.spiderman);
+    }
+
+}
